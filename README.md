@@ -9,19 +9,18 @@
 
 
 ## A.　研究動機
-Web 2.0 壟罩下，我們的生活樣態就是使用互聯網的內容，並享受著這一切 ! 眾多影音平台中，YouTube 是我的首選，相信人人都想把喜歡的作品收藏起來並隨時使用，我也不外乎@@，至此本專案粗淺目的就此誕生了。
+Web 2.0 壟罩下，我們的生活樣態就是使用互聯網的內容，並享受著這一切 ! 眾多影音平台中，YouTube 是我的首選，相信人人都想把喜歡的作品收藏起來並隨時使用，我也不外乎...至此本專案粗淺目的就此誕生。
 
 <br/>
 
-## B.　未來更新方向
-- 抓取之聲音規格提高(Music) / 畫質提高(Video)
-  - 目前品質為 Music: OPUS 150kbps | Video: 720p 25fps
-- 用視窗程式 (.exe) 呈現本專案
-  - 可讓人不需安裝 Python，即可使用本專案功能。
-- 一次性下載大量檔案
-  - 透過 txt 寫入要載的 url，接著用多執行緒一次下載。
-- 加快下載效率
-  - 得到 YT 標題方式是透過爬蟲的方法 (雖能順利抓到標題，但也導致程式多一道程序)。
+## B.　未來更新
+| 事件 | 敘述 | 更新時間 |
+| :--: | :-- | :--: |
+| 專案上架 | Downloads-YT-To-MP3-4 | 2024/01/02 |
+| 加快下載效率 | 得到 YT 標題方式是透過爬蟲的方法，雖能抓到標題，但也多一道程序 | - |
+| 一次性下載大量檔案 | 透過 txt 寫入要載的 url，接著用多執行緒一次下載 | - |
+| 視窗程式 (.exe) 呈現專案 | 可不需安裝 Python，即可使用本專案功能 | - |
+| 聲音 \| 畫質規格提高 | 目前品質為 Music: OPUS 150kbps \| Video: 720p 25fps | - |
 
 <br/>
 
@@ -36,7 +35,7 @@ https://github.com/Junwu0615/Downloads-YT-To-MP3-4.git
 ```
 python Downloads-YT-To-MP3-4.py -h
 ```
-#若遇到以下問題 :
+#If you encounter the following problems:
 > ModuleNotFoundError: No module named 'pytube'.<br/>
   - `pip install pytube`<br/>
 
