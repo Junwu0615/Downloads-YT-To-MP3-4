@@ -28,9 +28,9 @@ def get_filename(url):
     
 def parse_args():
     parse = ArgumentParser()
-    parse.add_argument("-t", "--type", help = "give a type | ex: 'music(m) / video(v)'", default = "type", type = str)
-    parse.add_argument("-p", "--path", help = "give a path | ex: 'Downloads/'", default = "path", type = str)
-    parse.add_argument("-u", "--url", help = "give a YT URL | ex: 'https://...'", default = "url", type = str)
+    parse.add_argument("-t", "--type", help = "give a type | ex: 'music(m) / video(v)'", default = "m", type = str)
+    parse.add_argument("-p", "--path", help = "give a path | ex: './Downloads/'", default = "./", type = str)
+    parse.add_argument("-u", "--url", help = "give a YT URL | ex: 'https://...'", default = "https://www.youtube.com/watch?v=JsHqEpWQl-8", type = str)
     args = parse.parse_args()
     return args
 
