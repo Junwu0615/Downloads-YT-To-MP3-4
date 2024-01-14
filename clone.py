@@ -32,5 +32,5 @@ if len(timestamps) > 100:
     for item in remove_this:
         clones.remove(item)
 
-with open('clone.json', 'w', encoding='utf-8') as fh:
+with open('Downloads-YT-To-MP3-4_clone.json', 'w', encoding='utf-8') as fh:
     json.dump(latest, fh, ensure_ascii=False, indent=4)
