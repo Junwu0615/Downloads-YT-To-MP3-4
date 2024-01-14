@@ -1,5 +1,5 @@
 <a href='https://github.com/Junwu0615/Downloads-YT-To-MP3-4'><img alt='GitHub Views' src='https://views.whatilearened.today/views/github/Junwu0615/Downloads-YT-To-MP3-4.svg'> 
-<a href='https://github.com/Junwu0615/Downloads-YT-To-MP3-4'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/Junwu0615/acb7aeb93f554e94a7a6db8e909bc0c6/raw/Downloads-YT-To-MP3-4_clone.json&logo=github'> </br>
+<a href='https://github.com/Junwu0615/Downloads-YT-To-MP3-4'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count_total&url=https://gist.githubusercontent.com/Junwu0615/acb7aeb93f554e94a7a6db8e909bc0c6/raw/Downloads-YT-To-MP3-4_clone.json&logo=github'> </br>
 [![](https://img.shields.io/badge/Project-YouTubeDownloads-blue.svg?style=plastic)](https://github.com/Junwu0615/Downloads-YT-To-MP3-4) 
 [![](https://img.shields.io/badge/Language-Python_3.12.0-blue.svg?style=plastic)](https://www.python.org/) </br>
 [![](https://img.shields.io/badge/Package-pytube_15.0.0-green.svg?style=plastic)](https://pypi.org/project/pytube/) 
