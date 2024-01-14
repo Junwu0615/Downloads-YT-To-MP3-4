@@ -27,17 +27,17 @@ Web 2.0 壟罩下，我們的生活樣態就是使用互聯網的內容，並享
 ## C.　如何使用
 
 ### STEP.1　CLONE
-```ruby
+```python
 https://github.com/Junwu0615/Downloads-YT-To-MP3-4.git
 ```
 
 ### STEP.2　INSTALL PACKAGES
-```ruby
+```python
 pip install -r requirements.txt
 ```
 
 ### STEP.3　RUN
-```ruby
+```python
 python Downloads-YT-To-MP3-4.py -h
 ```
 
@@ -49,7 +49,7 @@ python Downloads-YT-To-MP3-4.py -h
 
 ### STEP.5　EXAMPLE
 #### I.　下載音樂 (Downloads Music)
-```ruby
+```python
 python Downloads-YT-To-MP3-4.py -t m -p ./Downloads/ -u https://www.youtube.com/watch?v=JsHqEpWQl-8
 ```
 <img src="https://github.com/Junwu0615/Downloads-YT-To-MP3-4/blob/main/sample_gif/music.gif">
@@ -59,7 +59,7 @@ python Downloads-YT-To-MP3-4.py -t m -p ./Downloads/ -u https://www.youtube.com/
 - `-u` https://www.youtube.com/watch?v=JsHqEpWQl-8
 
 #### II.　下載影片 (Downloads Video)
-```ruby
+```python
 python Downloads-YT-To-MP3-4.py -t v -p ./Downloads/ -u https://www.youtube.com/watch?v=JsHqEpWQl-8
 ```
 <img src="https://github.com/Junwu0615/Downloads-YT-To-MP3-4/blob/main/sample_gif/video.gif">
