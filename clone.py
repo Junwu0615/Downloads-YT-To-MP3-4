@@ -20,14 +20,6 @@ if 'count_total' not in latest.keys():
 if 'uniques_total' not in latest.keys():
     latest['uniques_total'] = 0 
 
-if len(latest["clones"]) > 14:
-    temp_list = latest["clones"][:-14]
-    latest["clones"] = latest["clones"][-14:]
-
-    for i in temp_list:
-        latest['count_past_to_last_2_weeks_ago'] += i['count']
-        latest['uniques_past_to_last_2_weeks_ago'] += i['uniques']
-
 # 具有唯一性
 timestamps = {latest['clones'][i]['timestamp']: i for i in range(len(latest['clones']))}
 
@@ -40,6 +32,14 @@ for i in range(len(now['clones'])):
     else:
         # 不在裡面，新增該筆資料
         latest['clones'].append(now['clones'][i])
+
+if len(latest["clones"]) > 14:
+    temp_list = latest["clones"][:-14]
+    latest["clones"] = latest["clones"][-14:]
+
+    for i in temp_list:
+        latest['count_past_to_last_2_weeks_ago'] += i['count']
+        latest['uniques_past_to_last_2_weeks_ago'] += i['uniques']
 
 # 如此一來，根據 17-22 行的過濾判斷，加總的內容也就只局限於最近2周(14天)的內容
 # 避免時間拉長後，json 紀錄內容過於龐大
