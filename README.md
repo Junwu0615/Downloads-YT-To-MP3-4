@@ -13,7 +13,7 @@ Web 2.0 壟罩下，我們的生活樣態就是使用互聯網的內容，並享
 
 <br/>
 
-## B.　未來更新
+## B.　歷史紀錄
 | 事件 | 敘述 | 更新時間 |
 | :--: | :-- | :--: |
 | 專案上架 | Downloads-YT-To-MP3-4 | 2024/01/02 |
@@ -27,29 +27,29 @@ Web 2.0 壟罩下，我們的生活樣態就是使用互聯網的內容，並享
 ## C.　如何使用
 
 ### STEP.1　CLONE
-```python
+```py
 https://github.com/Junwu0615/Downloads-YT-To-MP3-4.git
 ```
 
 ### STEP.2　INSTALL PACKAGES
-```python
+```py
 pip install -r requirements.txt
 ```
 
 ### STEP.3　RUN
-```python
+```py
 python Downloads-YT-To-MP3-4.py -h
 ```
 
 ### STEP.4　HELP
-- -h　Help:　Show this help message and exit.
-- -t　Type:　Give a type | ex: music(m) / video(v)
-- -p　Path:　Give a path | ex:　./Downloads/
-- -u　Url :　 Give a YT URL | ex:　https://www.youtube.com/...
+- `-h`　Help:　Show this help message and exit.
+- `-t`　Type:　Give a type | ex: music(m) / video(v)
+- `-p`　Path:　Give a path | ex:　./Downloads/
+- `-u`　Url :　 Give a YT URL | ex:　https://www.youtube.com/...
 
 ### STEP.5　EXAMPLE
 #### I.　下載音樂 (Downloads Music)
-```python
+```py
 python Downloads-YT-To-MP3-4.py -t m -p ./Downloads/ -u https://www.youtube.com/watch?v=JsHqEpWQl-8
 ```
 <img src="https://github.com/Junwu0615/Downloads-YT-To-MP3-4/blob/main/sample_gif/music.gif">
@@ -59,7 +59,7 @@ python Downloads-YT-To-MP3-4.py -t m -p ./Downloads/ -u https://www.youtube.com/
 - `-u` https://www.youtube.com/watch?v=JsHqEpWQl-8
 
 #### II.　下載影片 (Downloads Video)
-```python
+```py
 python Downloads-YT-To-MP3-4.py -t v -p ./Downloads/ -u https://www.youtube.com/watch?v=JsHqEpWQl-8
 ```
 <img src="https://github.com/Junwu0615/Downloads-YT-To-MP3-4/blob/main/sample_gif/video.gif">
@@ -72,8 +72,6 @@ python Downloads-YT-To-MP3-4.py -t v -p ./Downloads/ -u https://www.youtube.com/
 
 ## D.　YouTube 來源
 - [YouTube 音樂庫](https://www.youtube.com/watch?v=JsHqEpWQl-8)
-
-<br/>
 
 ## E.　參考來源
 - [GeeksforGeeks | Download-Video-In-mp3-Format-Using-Pytube](https://www.geeksforgeeks.org/download-video-in-mp3-format-using-pytube/)
